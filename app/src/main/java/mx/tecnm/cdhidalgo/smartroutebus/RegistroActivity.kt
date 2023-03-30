@@ -26,7 +26,7 @@ class RegistroActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
         //Llamar Vistas
-        nombre=findViewById(R.id.etNombre)
+        nombre=findViewById(R.id.nombre)
         email=findViewById(R.id.email)
         pass=findViewById(R.id.pass)
         tel=findViewById(R.id.tel)
